@@ -1,0 +1,123 @@
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    background: var(--Misc-White, #fff);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    letter-spacing: 1px;
+    padding: 30px 80px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .topStrip {
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 40px 100px;
+    color: var(--Primary-Primary, #eb4c6b);
+    letter-spacing: 1px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px 274px;
+    font: 400 12px Simplon Norm, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .topStrip {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .stripItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .stripIcon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .mainHeader {
+    display: flex;
+    width: 100%;
+    max-width: 1248px;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .mainHeader {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .brandName {
+    color: rgba(0, 0, 0, 1);
+    font: 800 36px Inter, sans-serif;
+  }
+  
+  .headerIcons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: var(--Text-Text, #252020);
+    font: 700 16px Simplon Norm, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .dropdownIcon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .navigation {
+    display: flex;
+    margin-top: 60px;
+    align-items: start;
+    gap: 40px 64px;
+    color: var(--Text-Text, #252020);
+    justify-content: start;
+    flex-wrap: wrap;
+    font: 700 20px Simplon Norm, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .navigation {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .navItem {
+    text-decoration: none;
+    color: inherit;
+  }

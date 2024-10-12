@@ -1,0 +1,182 @@
+.productListContainer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  display: flex;
+  margin-top: 72px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 80px;
+}
+
+@media (max-width: 991px) {
+  .mainContent {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+
+.pageTitle {
+  color: var(--Misc-Text, #252020);
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font: 400 60px Simplon Norm, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .pageTitle {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.pageDescription {
+  color: var(--Text-Text, #252020);
+  text-align: center;
+  margin-top: 16px;
+  width: 721px;
+  font: 400 22px/40px Simplon Norm, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .pageDescription {
+    max-width: 100%;
+  }
+}
+
+.contentDivider {
+  align-self: center;
+  margin-top: 71px;
+  width: 1248px;
+  max-width: 100%;
+  height: 1px;
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+
+@media (max-width: 991px) {
+  .contentDivider {
+    margin-top: 40px;
+  }
+}
+
+.productSection {
+  background-color: rgba(255, 255, 255, 1);
+  align-self: center;
+  display: flex;
+  width: 100%;
+  max-width: 1248px;
+  padding-top: 24px;
+  flex-direction: column;
+  line-height: 40px;
+}
+
+@media (max-width: 991px) {
+  .productSection {
+    max-width: 100%;
+  }
+}
+
+.productHeader {
+  display: flex;
+  margin-right: 36px;
+  width: 100%;
+  max-width: 1212px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .productHeader {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+}
+
+.productCount {
+  display: flex;
+  gap: 40px 78px;
+}
+
+.productCount span {
+  color: var(--Text-Text, #252020);
+  text-transform: uppercase;
+  font: 700 18px Simplon Norm, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.filterToggle {
+  align-items: center;
+  background: var(--Misc-White, #fff);
+  display: flex;
+  gap: 8px;
+  color: var(--Text-Secondary-Text, #888792);
+  text-align: right;
+  justify-content: start;
+  font: 400 16px Adobe Caslon Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.filterIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.sortSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--Text-Text, #252020);
+  white-space: nowrap;
+  text-transform: uppercase;
+  justify-content: start;
+  font: 700 18px Simplon Norm, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .sortSection {
+    white-space: initial;
+  }
+}
+
+.sortLabel {
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.sortIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.productContent {
+  display: flex;
+  margin-top: 32px;
+  width: 100%;
+  max-width: 1248px;
+}
+
+@media (max-width: 991px) {
+  .productContent {
+    max-width: 100%;
+  }
+}
+
+.productGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 76%;
+}
+
+@media (max-width: 991px) {
+  .productGrid {
+    width: 100%;
+  }
+}
