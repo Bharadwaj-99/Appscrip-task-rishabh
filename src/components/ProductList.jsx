@@ -17,7 +17,7 @@ import prod10 from '../assests/prod10.png'
 import prod11 from '../assests/prod11.png'
 import prod12 from '../assests/prod12.png'
 import prod13 from '../assests/prod13.png'
-import img from '../assests/image1'
+import img from '../assests/image.png'
 
 
 
