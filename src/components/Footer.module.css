@@ -95,10 +95,13 @@
     margin-bottom: 16px;
   }
   
-  .currencyFlag,
-  .currencyDropdown {
+  .currencyFlag{
     width: 24px;
     height: 24px;
+  }
+  .currencyDropdown {
+    width: 10px;
+    height: 10px;
   }
   
   .currencyCode {

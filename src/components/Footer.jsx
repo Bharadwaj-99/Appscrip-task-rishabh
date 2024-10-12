@@ -1,5 +1,15 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import usa from '../assests/usa.png'
+import usastar from '../assests/usastar.png'
+import insta from '../assests/insta.png'
+import amex from '../assests/amex.png'
+import apple from '../assests/apple.png'
+import gpay from '../assests/gpay.png'
+import linkedin from '../assests/linkedin.png'
+import paypal from '../assests/paypal.png'
+import pay from '../assests/pay.png'
+import mastercard from '../assests/mastercard.png'
 
 const Footer = () => {
   return (
@@ -20,8 +30,8 @@ const Footer = () => {
           <p className={styles.contactInfo}>customercare@mettamuse.com</p>
           <h3 className={styles.currencyTitle}>Currency</h3>
           <div className={styles.currencySelector}>
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/48fb5ce7673ab4bb9291000daa93efc7bc691e86f1234ec7cf4a512d66dfbc4c?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.currencyFlag} />
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f0826f0179bf48701b79e7d666903256ed26bf87485435f6304d930dbbb5aaa9?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.currencyDropdown} />
+            <img src={usa} alt="usa" className={styles.currencyFlag} />
+            <img src={usastar} alt="star" className={styles.currencyDropdown} />
             <span className={styles.currencyCode}>USD</span>
           </div>
           <p className={styles.currencyNote}>
@@ -59,20 +69,20 @@ const Footer = () => {
           <h2 className={styles.sectionTitle}>Follow Us</h2>
           <div className={styles.socialIcons}>
             <a href="#instagram" aria-label="Follow us on Instagram">
-              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e5782aa152cf3fefa8faa3839b79eb1b00ad0a29aa94b856704564b295fcc9a3?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.socialIcon} />
+              <img src={insta} alt="instagram" className={styles.socialIcon} />
             </a>
             <a href="#linkedin" aria-label="Follow us on LinkedIn">
-              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9cb0f6633775abe68b51df79fcfd1b238d254b16880089c29f6bc692434c9f3a?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.socialIcon} />
+              <img src={linkedin} alt="linkedin" className={styles.socialIcon} />
             </a>
           </div>
           <h3 className={styles.paymentTitle}>mettā muse Accepts</h3>
           <div className={styles.paymentMethods}>
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/187244943b1ea6f050e97a182016e69061656fbf05cececb2c6e83e7f3fb52cf?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="Visa" className={styles.paymentIcon} />
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b2151c8f4ec91b031e85cf83270c747e71e5d9d5c422a6b54fe87253a45147a5?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="Mastercard" className={styles.paymentIcon} />
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/77f14b68a05e99db81e7ddc00ea01e37968be6dcb78fb5e8edae74d9387a02d6?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="American Express" className={styles.paymentIcon} />
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/427280cbfe917309b54249fed012356c0694a80ff5f7b7bd8b174f5aa96e40d3?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="Discover" className={styles.paymentIcon} />
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9d59fa8e8b62945b558d57372cb58f11adf34f324827543132d55cb54a77255?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="JCB" className={styles.paymentIcon} />
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c6cdf32fe60522cfe20804d7c2f6306f40340d2e5c87f8c4c7c227c0df24528?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="UnionPay" className={styles.paymentIcon} />
+            <img src={gpay}alt="gpay" className={styles.paymentIcon} />
+            <img src={mastercard} alt="Mastercard" className={styles.paymentIcon} />
+            <img src={paypal} alt="paypal" className={styles.paymentIcon} />
+            <img src={amex} alt="amex" className={styles.paymentIcon} />
+            <img src={apple} alt="apple" className={styles.paymentIcon} />
+            <img src={pay} alt="UnionPay" className={styles.paymentIcon} />
           </div>
         </div>
       </div>

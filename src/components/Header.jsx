@@ -1,34 +1,46 @@
 import React from 'react';
 import styles from './Header.module.css';
+import img1 from '../assests/img1.png'
+import logo1 from '../assests/logo1.png'
+import img2 from '../assests/img2.png'
+import img3 from '../assests/img3.png'
+
+import img4 from '../assests/img4.png'
+
+import img5 from '../assests/img5.png'
+import image from '../assests/image.png'
+
+
+
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.topStrip}>
         <div className={styles.stripItem}>
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6af99ef5f425f31d6a370da4d5aff9b93f9ebd7a85a3f461215382212d09cb40?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.stripIcon} />
+          <img src={img1} alt="logo" className={styles.stripIcon} />
           <span>Lorem ipsum dolor</span>
         </div>
         <div className={styles.stripItem}>
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6af99ef5f425f31d6a370da4d5aff9b93f9ebd7a85a3f461215382212d09cb40?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.stripIcon} />
+          <img src={img1} alt="logo" className={styles.stripIcon} />
           <span>Lorem ipsum dolor</span>
         </div>
         <div className={styles.stripItem}>
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6af99ef5f425f31d6a370da4d5aff9b93f9ebd7a85a3f461215382212d09cb40?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.stripIcon} />
+          <img src={img1} alt="logo" className={styles.stripIcon} />
           <span>Lorem ipsum dolor</span>
         </div>
       </div>
       <div className={styles.mainHeader}>
-        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f0dd93302348c3b3f46ce1118f00f7f3a21f7111b0592e8c6d6ef1f73ea3bef?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="Logo" className={styles.logo} />
+        <img src={logo1} alt="Logo" className={styles.logo} />
         <h1 className={styles.brandName}>LOGO</h1>
         <div className={styles.headerIcons}>
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/dcb0b404f75718928201d0f2e6239f278fc888d5601f5f5c8fd9bb9fb82f49c2?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="Search" className={styles.icon} />
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c0c668573c2b8b722a3162e3b3e49d3eddef12fe61cc571adb92e7a0083bf2c7?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="User" className={styles.icon} />
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f275c0fd3da548395ba02be2df3f5534df6935d5d427477c330dd9a25ba4fd27?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="Wishlist" className={styles.icon} />
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1014cf542ee3c97bbe808712f6c7631c7eb43ccf619aec14497ad390320e2835?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="Cart" className={styles.icon} />
+          <img src={img2} alt="Search" className={styles.icon} />
+          <img src={img3} alt="User" className={styles.icon} />
+          <img src={img4} alt="Wishlist" className={styles.icon} />
+          <img src={img5} alt="Cart" className={styles.icon} />
           <div className={styles.language}>
             <span>ENG</span>
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/5170181ed90c2877fe2d5a60c2aa71a775964c2bb5e7cbefac0d38add3c70eef?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.dropdownIcon} />
+            <img src={image} alt="dropdown" className={styles.dropdownIcon} />
           </div>
         </div>
       </div>

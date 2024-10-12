@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ProductCard.module.css';
+import img3 from '../assests/img3.png'
 
 const ProductCard = ({ name, isNew, isOutOfStock, image }) => {
   return (
@@ -15,7 +16,7 @@ const ProductCard = ({ name, isNew, isOutOfStock, image }) => {
           <span>Sign in</span> or Create an account to see pricing
         </p>
         <button className={styles.wishlistButton} aria-label="Add to wishlist">
-          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc193d8c7b8dc278531997ba11895ff0946aafc4e6fc36cee26c0f98e8a4e699?placeholderIfAbsent=true&apiKey=9e9af893f9334aa39b88140068087eea" alt="" className={styles.wishlistIcon} />
+          <img src={img3} alt="heart" className={styles.wishlistIcon} />
         </button>
       </div>
     </article>
